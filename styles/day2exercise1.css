@@ -1,0 +1,22 @@
+section {
+  width: 80vw;
+  height: 50vw;
+  margin: 1vw auto;
+
+  display: flex;
+  background-image: url("../images/cat2.jpg");
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: space-between;
+}
+
+div {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+section > div {
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+}

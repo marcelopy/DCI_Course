@@ -1,0 +1,68 @@
+body {
+    background-color: grey;
+}
+
+main {
+  display: flex;
+  width: 75vw;
+  padding: 0 3vw;
+  flex-wrap: wrap;
+  margin: 3vw auto;
+  box-sizing: border-box;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 28vw;
+  background-color: white;
+  margin-right: 4vw;
+  margin-bottom: 4vw;
+  border: 1px solid black;
+  box-sizing: border-box;
+
+
+
+    @each $pos, $tittle, $image, $content in (1, Rome, aero, This is some things to do here and more like that),
+     (2, Hamburg, alps, Could also be loren Ipsum), (3, Sofia, brooklyn, Maybe something else),
+    (4, Home, colorado, Alles enfants de la patrie), (5, Canyon, canyon, I pledge alliance to the flag),
+    (6, Springfield, forest, In the darkest night), (7, Bulgaria, lights, In the brightest day),
+    (8, Berlin, sifnos, One Two Do not come out), (9, Salzburg, swiss, This is the last of it) {
+      &:nth-of-type(#{$pos}) {
+        h4 {
+        text-align: center;
+        font-size: 2vw;
+        &:before{
+          content: '#{$tittle}';
+        }
+      }
+        div {
+          height: 18vw;
+          width: 100%;
+          background-image: url('../conquer/#{$image}.'+jpg);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+
+        p {
+          text-align: center;
+          font-size: 1.4vw;
+          &:before {
+            content: '#{$content}';
+          }
+          }
+        }
+}
+
+}
+
+      button {
+        width: 100%;
+        background: blue;
+        color: black;
+        // padding: 1vw 0;
+        height: 3vw;
+        border: none;
+}

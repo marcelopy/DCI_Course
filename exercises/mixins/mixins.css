@@ -1,0 +1,266 @@
+body {
+  background-color: grey;
+}
+
+main {
+  display: flex;
+  width: 75vw;
+  padding: 0 3vw;
+  flex-wrap: wrap;
+  margin: 3vw auto;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 28vw;
+  background-color: white;
+  margin-right: 4vw;
+  margin-bottom: 4vw;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+section:nth-of-type(1) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(1) h4:before {
+  content: "Rome";
+}
+
+section:nth-of-type(1) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/aero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(1) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(1) p:before {
+  content: "This is some things to do more like that";
+}
+
+section:nth-of-type(2) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(2) h4:before {
+  content: "Hamburg";
+}
+
+section:nth-of-type(2) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/alps.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(2) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(2) p:before {
+  content: "Could also be loren Ipsum";
+}
+
+section:nth-of-type(3) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(3) h4:before {
+  content: "Sofia";
+}
+
+section:nth-of-type(3) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/brooklyn.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(3) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(3) p:before {
+  content: "Maybe something else";
+}
+
+section:nth-of-type(4) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(4) h4:before {
+  content: "Home";
+}
+
+section:nth-of-type(4) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/colorado.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(4) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(4) p:before {
+  content: "Alles enfants de la patrie";
+}
+
+section:nth-of-type(5) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(5) h4:before {
+  content: "Canyon";
+}
+
+section:nth-of-type(5) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(5) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(5) p:before {
+  content: "I pledge alliance to the flag";
+}
+
+section:nth-of-type(6) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(6) h4:before {
+  content: "Springfield";
+}
+
+section:nth-of-type(6) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(6) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(6) p:before {
+  content: "In the darkest night";
+}
+
+section:nth-of-type(7) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(7) h4:before {
+  content: "Bulgaria";
+}
+
+section:nth-of-type(7) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/lights.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(7) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(7) p:before {
+  content: "In the brightest day";
+}
+
+section:nth-of-type(8) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(8) h4:before {
+  content: "Berlin";
+}
+
+section:nth-of-type(8) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/sifnos.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(8) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(8) p:before {
+  content: "One Two Do false out";
+}
+
+section:nth-of-type(9) h4 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+section:nth-of-type(9) h4:before {
+  content: "Salzburg";
+}
+
+section:nth-of-type(9) div {
+  height: 18vw;
+  width: 100%;
+  background-image: url("../conquer/swiss.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section:nth-of-type(9) p {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+section:nth-of-type(9) p:before {
+  content: "This is the last of it";
+}
+
+button {
+  width: 100%;
+  background: blue;
+  color: black;
+  height: 3vw;
+  border: none;
+}

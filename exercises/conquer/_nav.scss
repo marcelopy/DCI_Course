@@ -1,0 +1,21 @@
+nav {
+  background: #383e4c;
+  width:100%;
+  display: flex;
+  padding: 1vw 8vw;
+  justify-content: center;
+  position: fixed;
+
+    a {
+      border: 1px solid #646d7c;
+      text-decoration: none;
+      font-size: 2vw;
+      font-family: Raleway;
+      color: white;
+      margin: 0 1vw;
+      padding: 1vw 2vw;
+      &:hover {
+        background-color: lighten(#383e4c, 10%);
+      }
+    }
+}

@@ -1,0 +1,18 @@
+section {
+  display:flex;
+  width: 90vw;
+  margin: 2vw auto;
+
+}
+
+img {
+  opacity: 0.7;
+  width: 18vw;
+  transition: width 1s;
+  flex-grow: 1;
+}
+
+img:hover {
+  width: 36vw;
+  opacity: 1;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  border: 3vw solid red;
+  display: flex;
+  width: 80%;
+  margin: 8vw 10%;
+  justify-content: space-evenly;
+}
+
+main section {
+  flex-grow: 1;
+  border: 1px solid black;
+  margin: 4vw 5vw;
+  padding: 3vw;
+  text-align: center;
+  justify-content: center;
+}
+
+main section:nth-of-type(1) h4:before {
+  content: "desktops";
+}
+
+main section:nth-of-type(1) div {
+width: 8vw;
+height: 10vw;
+margin: 3vw 0;
+background-image: url(desktops.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+span {
+  color: red;
+}
+span:before {
+  color: red;
+  content: "only 23 ";
+}

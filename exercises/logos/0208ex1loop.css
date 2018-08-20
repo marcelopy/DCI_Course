@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+body nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+body nav li {
+  list-style-type: none;
+  padding: 5vw;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body nav li:nth-of-type(1) {
+  background-image: url(bayern.png);
+}
+
+body nav li:nth-of-type(2) {
+  background-image: url(dortmund.png);
+}
+
+body nav li:nth-of-type(3) {
+  background-image: url(frankfurt.png);
+}
+
+body nav li:nth-of-type(4) {
+  background-image: url(gladbach.png);
+}
+
+body nav li:nth-of-type(5) {
+  background-image: url(koln.png);
+}
+
+body nav li:nth-of-type(6) {
+  background-image: url(mainz.png);
+  display: none;
+}
+
+body nav li:nth-of-type(7) {
+  background-image: url(nurnberg.png);
+}
+
+body nav li:nth-of-type(8) {
+  background-image: url(pauli.png);
+}

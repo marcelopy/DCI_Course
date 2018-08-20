@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
+  integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+   integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" href="tripair.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trip Air 2</title>
+</head>
+<body>
+  <nav>
+    <div class="navOpacity">
+      <li class="padding"></li>
+      <li class="imageLogo">
+        <a href="#"><img src="tripair.svg" alt="Trip Air SVG Logo"></a>
+      </li>
+      <li><a href="#"><i class="fas fa-globe"></i> Deutsch</li></a>
+      <li><a href="#"><i class="fas fa-phone"></i> 0800 181 2186</li></a>
+      <li class="padding"></li>
+    </div>
+  </nav>
+  <main>
+    <form>
+      <div class="gridContainer">
+          <div class="item1"><b><a href="#"><i class="fas fa-plane"></i>Flüge</a></b></div>
+          <div class="item2">
+            <input type="radio" name="typeOfFlight" value="roundTrip"> Hin- und Rückflug &emsp;
+            <input type="radio" name="typeOfFlight" value="oneWay"> Hinflug
+          </div>
+          <div class="item3">
+            <input type="checkbox" name="directFlight" value="directFlight"> Nur Direktflüge
+          </div>
+          <div class="item4">
+            <label for="flightRoute">Von</label>
+            <i class="fas fa-map-marker-alt iconColor"></i>
+            <input type="text" id="flightRoute" placeholder="Stadt other Flughafen">
+          </div>
+          <div class="item5">
+            <label for="flightRoute">Nach</label>
+            <i class="fas fa-map-marker-alt iconColor"></i>
+            <input type="text" id="flightRoute" placeholder="Stadt other Flughafen">
+          </div>
+          <div class="item6">
+            <label for="flightRoute">Hinflug</label>
+            <i class="fas fa-calendar-alt iconColor"></i>
+            <input type="date" id="flightRoute" placeholder="TT/MM/YYYY">
+          </div>
+          <div class="item7">
+            <label for="flightRoute">Rückflug</label>
+            <i class="fas fa-calendar-alt iconColor"></i>
+            <input type="date" id="flightRoute" placeholder="TT/MM/YYYY">
+          </div>
+          <div class="item8">
+            <label for="flightRoute">Passagiere</label>
+            <i class="fas fa-users iconColor"></i>
+            <select name="passenger">
+              <option value="adult">Erwachsene (12+)</option>
+              <option value="child">Kinder (2-11)</option>
+              <option value="baby">Baby (0-23m)</option>
+            </select>
+          </div>
+          <div class="item9"><button>Suchen</button></div>
+          <div class="itemPadding"></div>
+      </div>
+    </form>
+  </main>
+  <section class="advantages">
+    <div>Warum bei uns buchen?</div>
+    <div class="advantages2">
+      <div>
+      <i class="fas fa-comments iconProperties"></i>
+      <br>
+      <h3>Effiziente Kundenbetreuung</h3>
+      <br>
+      <p>Unsere Kundenbetreuung ist bereit dafür,
+        Ihnen auf alle Fälle zu helfen. Mailen oder rufen Sie uns vor,
+        während oder nach Ihrer Buchung an.</p>
+      </div>
+      <div>
+        <i class="fas fa-suitcase iconProperties"></i>
+        <br>
+        <h3>Buchung leicht gemacht</h3>
+        <br>
+        <p>Der Buchungsprozess war noch nie einfacher.
+          Sie sind nur 5 schnelle Schritte entfernt vom Ankauf Ihres Flugtickets über jedes Gerät!</p>
+      </div>
+      <div>
+        <i class="fas fa-list-ul iconProperties"></i>
+        <br>
+        <h3>Sichere Zahlungen</h3>
+        <br>
+        <p>Tripair ist mit allen fortgeschrittenen Mitteln ausgestattet, die die Sicherheit Ihrer persönlichen Daten gewährleisten.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

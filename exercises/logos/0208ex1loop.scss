@@ -1,0 +1,31 @@
+body {
+  margin:0;
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+
+        li{
+          list-style-type: none;
+          padding: 5vw;
+          background: {
+            size: 75% 75%;
+            repeat: no-repeat;
+            position: center center;
+          };
+
+          @each $pos, $team in (1, bayern),
+          (2, dortmund), (3, frankfurt),
+          (4, gladbach), (5, koln),
+          (6, mainz), (7, nurnberg),
+          (8, pauli) {
+            &:nth-of-type(#{$pos}) {
+              background-image: url(#{$team}.png);
+            @if $team == mainz {
+              display: none;
+            }
+            }
+          }
+          }
+        }
+}

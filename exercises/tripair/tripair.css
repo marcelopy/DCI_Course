@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+nav {
+  height: 8vw;
+  background-image: url("cloudsnav.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.2vw;
+}
+
+.navOpacity {
+  height: 8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(138, 182, 252, 0.5);
+}
+
+nav li {
+list-style: none;
+color: white;
+font-size: 1.5vw;
+flex-grow: 1;
+text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  transition: color 1s;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+nav  li.imageLogo {
+  flex-grow: 2;
+  text-align: left;
+}
+
+nav  li.padding {
+  flex-grow: 0.3;
+}
+
+.imageLogo img {
+  width: 30%;
+  height: auto;
+}
+
+main {
+  height: 40vw;
+  background-image: url('paradise.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 80%;
+  height: 60%;
+}
+
+div.gridContainer {
+  /* width: 100%; */
+  height: 100%;
+  display: grid;
+  grid: repeat(5, 1fr) / 1fr 1fr 1fr 1fr 0.2fr;
+  grid-template-areas:
+  'item1 . . . .'
+  'item2 item2 item3 item3 itemPadding'
+  'item4 item4 item5 item5 itemPadding'
+  'item6 item6 item7 item7 itemPadding'
+  'item8 item8 item9 item9 itemPadding';
+}
+
+div.gridContainer > div {
+  background-color: rgba(42, 96, 183, 0.9);
+  font-size: 2vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconColor {
+  color: rgba(38, 85, 147, 1);
+  background-color: none;
+  position: relative;
+  z-index: 1;
+}
+
+div.gridContainer > div.item2,
+div.gridContainer > div.item3 {
+  justify-content: left;
+  padding-left: 4vw;
+}
+
+div.gridContainer > div.item4,
+div.gridContainer > div.item5,
+div.gridContainer > div.item6,
+div.gridContainer > div.item7,
+div.gridContainer > div.item8 {
+  flex-flow: column;
+  align-items: flex-start;
+  padding-left: 4vw;
+}
+
+div.item4 input,
+div.item5 input,
+div.item6 input,
+div.item7 input,
+div.item8 select {
+  position: relative;
+  top: -2.1vw;
+  outline: none;
+  padding-left: 1.5vw;
+  font-size: 1.8vw;
+  border: none;
+  width: 95%;
+}
+
+div.item8 select {
+  padding-left: 2.4vw;
+  width: 100%;
+}
+
+div.item6 input,
+div.item7 input {
+  width: 94%;
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+
+
+div.item4 input:focus,
+div.item5 input:focus,
+div.item6 input:focus,
+div.item7 input:focus,
+div.item8 select:focus {
+  outline: none;
+  background: rgba(112, 211, 156, 1);
+}
+
+div.gridContainer > div.item5,
+div.gridContainer > div.item7 {
+  justify-content: flex-start;
+}
+
+div.item9 button {
+  width: 100%;
+  /* background-color: rgb(196, 19, 84); */
+  background: linear-gradient(to left, rgba(196, 19, 84, 0.8) 50%,  rgba(158, 22, 71, 0.8) 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+  padding: 0.2vw 0;
+  font-size: 1.5vw;
+  border: none;
+  transition: all 0.6s;
+}
+
+div.item9 button:hover {
+  background-position: left bottom;
+}
+
+div.item1 {
+  grid-area: item1;
+  border-top: 0.4vw solid green;
+}
+
+div.item1 a{
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+}
+
+div.item2 {
+  grid-area: item2;
+  padding-left: 4vw;
+}
+div.item3 {
+  grid-area: item3;
+}
+div.item4 {
+  grid-area: item4;
+}
+div.item5 {
+  grid-area: item5;
+}
+div.item6 {
+  grid-area: item6;
+}
+div.item7 {
+  grid-area: item7;
+}
+div.item8 {
+  grid-area: item8;
+}
+div.item9 {
+  grid-area: item9;
+  padding-left: 4vw;
+}
+div.itemPadding {
+  grid-area: itemPadding;
+}
+
+section.advantages {
+  border: 1px solid black;
+  height: 30vw;
+  background: rgb(10, 6, 124);
+}
+
+section.advantages > div:first-of-type {
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+  margin: 3vw auto;
+
+}
+
+div.advantages2 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1.5vw;
+  margin: 0 4vw;
+}
+
+.iconProperties {
+font-size: 4vw;
+padding-bottom: 1vw;
+color: rgb(75, 144, 193);
+}
+
+div.advantages2 > div {
+  padding: 1vw 2vw;
+  text-align: center;
+}
+
+div.advantages2 h3 {
+  color: rgb(118, 236, 242);
+}

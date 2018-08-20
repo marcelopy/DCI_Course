@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  border: 3vw solid red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 8vw 10%;
+  justify-content: flex-start;
+
+
+    section {
+      border: 1px solid black;
+      margin: 4vw 5vw;
+      padding: 3vw;
+      text-align: center;
+      justify-content: center;
+
+      @each $position, $gadget, $quantity in (1, desktops, 37), (2, notebooks, 18),
+      (3, smartphones, 87), (4, smartwatches, 5) {
+        &:nth-of-type(#{$position}) {
+          h4:before{
+          content: "#{$gadget}";
+        }
+
+          div {
+            width: 8vw;
+            height: 10vw;
+            margin: 3vw 0;
+            background-image: url(#{$gadget}.png);
+            background: {
+            size: 100% 100%;
+            repeat: no-repeat;
+            position: center;}
+
+          }
+
+          span {
+            color:red;
+            &:before {
+            content: "only #{$quantity} ";
+              }
+
+            @if $quantity <= 11 {
+              &:after {
+                display: block;
+                content: " Get yours fast!";
+              }
+            }
+          }
+
+        }
+      }
+    }
+}

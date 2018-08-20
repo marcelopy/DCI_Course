@@ -1,0 +1,7 @@
+h3 {
+  text-align: center;
+  margin: 2vw 0;
+  font-size: 2.8vw;
+  /* text-shadow: -3px 0  red, 3px 0  red, 0 -3px  red, 0 3px red; */
+  text-shadow: 24px 24px blue, 48px 48px green, 72px 72px gold;
+}

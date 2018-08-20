@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cousine', monospace;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Parisienne', cursive;
+}
+
+nav {
+  background: #383e4c;
+  width: 100%;
+  display: flex;
+  padding: 1vw 8vw;
+  justify-content: center;
+  position: fixed;
+}
+
+nav a {
+  border: 1px solid #646d7c;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: Raleway;
+  color: white;
+  margin: 0 1vw;
+  padding: 1vw 2vw;
+}
+
+nav a:hover {
+  background-color: #4e5669;
+}
+
+div.first_tittle {
+  height: 45vw;
+  background-image: url("forest.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: Cousine;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.first_tittle h3, div.first_tittle h5 {
+  margin: 1vw 0;
+  text-shadow: 0.2vw 0.1vw black;
+}
+
+div.first_tittle h3 {
+  font-size: 4vw;
+}
+
+div.first_tittle h5 {
+  font-size: 2.4vw;
+}
+
+div.first_boxes {
+  display: flex;
+  margin: 3vw 0;
+  padding: 2vw 5vw;
+  justify-content: center;
+}
+
+div.first_boxes div {
+  background: #f2f2f2;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.first_boxes div img {
+  width: 100%;
+  height: 12vw;
+}
+
+div.first_boxes div:nth-of-type(1) h4 {
+  font-size: 2vw;
+  margin: 1vw 0;
+  color: green;
+  font-family: Poiret One;
+}
+
+div.first_boxes div:nth-of-type(1) p {
+  margin: 2vw 0;
+  font-family: Raleway;
+  font-size: 1vw;
+  padding: 0 1vw;
+}
+
+div.first_boxes div:nth-of-type(1) button {
+  width: 80%;
+  padding: 1.5vw 0;
+  background-color: green;
+  font-family: Parisienne;
+  font-size: 2vw;
+  border: none;
+  color: white;
+}
+
+div.first_boxes div:nth-of-type(1) button:hover {
+  background-color: #00b300;
+}
+
+div.first_boxes div:nth-of-type(2) h4 {
+  font-size: 2vw;
+  margin: 1vw 0;
+  color: deepskyblue;
+  font-family: Poiret One;
+}
+
+div.first_boxes div:nth-of-type(2) p {
+  margin: 2vw 0;
+  font-family: Raleway;
+  font-size: 1vw;
+  padding: 0 1vw;
+}
+
+div.first_boxes div:nth-of-type(2) button {
+  width: 80%;
+  padding: 1.5vw 0;
+  background-color: deepskyblue;
+  font-family: Parisienne;
+  font-size: 2vw;
+  border: none;
+  color: white;
+}
+
+div.first_boxes div:nth-of-type(2) button:hover {
+  background-color: #33ccff;
+}
+
+div.first_boxes div:nth-of-type(3) h4 {
+  font-size: 2vw;
+  margin: 1vw 0;
+  color: red;
+  font-family: Poiret One;
+}
+
+div.first_boxes div:nth-of-type(3) p {
+  margin: 2vw 0;
+  font-family: Raleway;
+  font-size: 1vw;
+  padding: 0 1vw;
+}
+
+div.first_boxes div:nth-of-type(3) button {
+  width: 80%;
+  padding: 1.5vw 0;
+  background-color: red;
+  font-family: Parisienne;
+  font-size: 2vw;
+  border: none;
+  color: white;
+}
+
+div.first_boxes div:nth-of-type(3) button:hover {
+  background-color: #ff3333;
+}
+
+div.two_columns {
+  display: flex;
+  margin: 3vw 0;
+  padding: 2vw 5vw;
+  justify-content: center;
+  align-items: stretch;
+}
+
+div.two_columns div {
+  background: #f2f2f2;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2.5vw;
+  align-items: center;
+}
+
+div.two_columns div img {
+  width: 100%;
+  height: 18vw;
+}
+
+div.two_columns div h4 {
+  font-size: 2.7vw;
+  margin: 1vw 0;
+  color: black;
+  font-family: Poiret One;
+}
+
+div.two_columns div p {
+  margin: 2vw 0;
+  font-family: Raleway;
+  font-size: 1.5vw;
+  padding: 0 2vw;
+}
+
+div.two_columns div button {
+  width: 80%;
+  padding: 1.5vw 0;
+  margin-bottom: 2vw;
+  background-color: #E80C7A;
+  font-family: Parisienne;
+  font-size: 2vw;
+  border: none;
+  color: white;
+  align-self: flex-end;
+}
+
+div.two_columns div button:hover {
+  background-color: #f43394;
+}
+
+div.two_columns div button div.filler {
+  padding: 1.5vw 0;
+  margin-bottom: 2vw;
+  background-color: #E80C7A;
+  font-size: 2vw;
+}
+
+div.form {
+  background-image: url("lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: times new roman;
+}
+
+div.form h2 {
+  font-size: 3vw;
+  text-shadow: 0.3vw 0.2vw black;
+}
+
+div.form p {
+  width: 80%;
+  font-size: 2vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2vw;
+}
+
+div.form form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+div.form form div.gridContainer {
+  width: 100%;
+  height: 20vw;
+  display: grid;
+  grid: 1fr 1fr 1fr 1fr / 1fr 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 1vw;
+  grid-template-areas: 'name message' 'email message' 'subject message' '. button';
+}
+
+div.form form div.gridContainer div input {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(211, 221, 237, 0.7);
+  border: none;
+  outline: none;
+}
+
+div.form form div.name {
+  grid-area: name;
+}
+
+div.form form div.email {
+  grid-area: email;
+}
+
+div.form form div.message {
+  grid-area: message;
+}
+
+div.form form div.message textarea {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(211, 221, 237, 0.7);
+  border: none;
+  outline: none;
+}
+
+div.form form div.button {
+  grid-area: button;
+}
+
+div.form form div.subject {
+  grid-area: subject;
+}
+
+div.form form div.button {
+  display: flex;
+  justify-content: center;
+}
+
+div.form form div.button button {
+  color: white;
+  border: none;
+  border-radius: 20%;
+  background-color: #E80C7A;
+  font-size: 1.8vw;
+  font-family: Parisienne;
+  width: 40%;
+}
+
+div.form form div.button button:hover {
+  background-color: white;
+  color: #E80C7A;
+}
+
+div.form form div.button button:focus {
+  outline: none;
+}

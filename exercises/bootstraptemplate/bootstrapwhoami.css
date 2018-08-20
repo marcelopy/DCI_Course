@@ -1,0 +1,33 @@
+nav>div.container-fluid {
+  background-color: #f5f6f7;
+  border: none;
+}
+
+div.who>h2, div.who>img, div.who>h3 {
+  margin: 3vw 0;
+}
+
+
+div.container-fluid {
+  background-color: #1abc9c;
+  color: white;
+}
+
+div.second {
+  background: #474e5d;
+  padding: 6vw 0;
+}
+
+div.where {
+  background-color: white;
+  color: #555555;
+}
+
+div.where > h3 {
+  margin: 6vw 0;
+}
+
+footer>p {
+  background: #2f2f2f;
+  color:white;
+}

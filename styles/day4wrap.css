@@ -1,0 +1,16 @@
+body {
+  background: lightgreen;
+}
+
+section {
+  display: inline-flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+div {
+  width: 20vw;
+  height: 10vw;
+  background: red;
+  border: 2px solid black;
+}

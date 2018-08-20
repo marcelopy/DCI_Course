@@ -1,0 +1,56 @@
+div.first_boxes {
+  display: flex;
+  margin: 3vw 0;
+  padding: 2vw 5vw;
+  justify-content: center;
+  // align-items: stretch;
+
+    div {
+      background: #f2f2f2;
+      width: 22%;
+      display:flex;
+      flex-direction: column;
+      margin: 0 1vw;
+      justify-content: space-between;
+      align-items: center;
+
+          img {
+            width: 100%;
+            height: 12vw;
+          }
+
+          @each $position, $color in (1, green),
+          (2, deepskyblue), (3,red) {
+
+            &:nth-of-type(#{$position}) {
+              h4 {
+              font-size: 2vw;
+              margin: 1vw 0;
+              color:$color;
+              font-family: Poiret One;
+            }
+
+              p {
+                margin: 2vw 0;
+                font-family: Raleway;
+                font-size: 1vw;
+                padding: 0 1vw;
+              }
+
+              button {
+                width: 80%;
+                padding: 1.5vw 0;
+                background-color: $color;
+                font-family: Parisienne;
+                font-size: 2vw;
+                border: none;
+                color: white;
+
+                  &:hover {
+                    background-color: lighten($color, 10%);
+                  }
+              }
+            }
+    }
+}
+}

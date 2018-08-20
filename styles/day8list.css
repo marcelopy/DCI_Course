@@ -1,0 +1,12 @@
+:root {
+  counter-reset: list;
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  counter-increment: list;
+  content: counter(list) ' ' ;
+}

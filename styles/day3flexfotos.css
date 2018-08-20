@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: lightgray;
+}
+
+section {
+  display:flex;
+  width: 90vw;
+  height: 50vw;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+div {
+  width: 20%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+div h3 {
+  font-size: 2.2vw;
+}
+
+div article {
+  font-size: 1.2vw;
+}
+
+div h3, div article {
+  font-style: tahoma;
+  text-align: center;
+}
+
+div img {
+  width: 90%;
+  /* text-align: center; */
+}

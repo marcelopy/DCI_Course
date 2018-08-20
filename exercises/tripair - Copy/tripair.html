@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" href="tripair.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TripAir</title>
+</head>
+<body>
+  <nav>
+    <div></div>
+    <a href="#" class="tripairlogo">tripair.</a>
+    <a href="#"><i class="fas fa-globe"></i> Deutsch</a>
+    <a href="#"><i class="fas fa-phone"></i> 0800 181 2186</a>
+  </nav>
+  <main>
+
+    <div class="fly"><i class="fas fa-plane"></i>Flüge</div>
+
+      <div class="containerLeft">
+
+        <div class="search">
+          <button>Suchen</button>
+        </div>
+
+        <div>
+          <form>
+            <input type="radio" id="hinUndRuck"
+         name="typeOfFlight" value="roundtrip">
+            <label for="hinUndRuck">Hin- und Rückflug</label>
+
+            <input type="radio" id="hinFlug"
+         name="typeOfFlight" value="oneSideFlight">
+          <label for="hinFlug">Hinflug</label>
+          </form>
+        </div>
+
+        <div class="startingPoint">
+          <form>
+            <label for="startingPoint">Von </label>
+            <br>
+            <section class="inputText">
+            <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+            <input type="text" id="startingPoint" value="Stadt other Flughafen">
+            </section>
+          </form>
+        </div>
+
+        <div class="dateStartingFlight">
+          <form>
+            <label for="dateOfFlight">Hinflug</label>
+            <br>
+            <section class="inputText">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="date" id="dateOfFlight" value="dd/mm/yyyy">
+            </section>
+          </form>
+        </div>
+
+        <div class="passenger">Passagiere
+          <form>
+            <section class="passenger">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <select name="passenger">
+              <option value="erwachsene">Erwachsene (12+)</option>
+              <option value="kinder">Kinder (2-11)</option>
+              <option value="baby">Baby (0-23m)</option>
+            </select>
+            </section>
+          </form>
+        </div>
+
+        <div class="directFly">
+         <input type="checkbox" name="directFly" value="onlyDirectFlight"> Nur Direktflüge
+        </div>
+
+        <div class="destination">
+          <form>
+            <label for="destination">Nach </label>
+            <br>
+            <section class="inputText">
+            <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+            <input type="text" id="destination" value="Stadt other Flughafen">
+            </section>
+          </form>
+        </div>
+
+        <div class="dateReturningFlight">
+          <form>
+            <label for="dateReturningFlight">Rückflug</label>
+            <br>
+            <section class="inputText">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="date" id="dateReturningFlight" value="dd/mm/yyyy">
+            </section>
+          </form>
+        </div>
+
+
+      </div>
+
+  </main>
+
+</body>
+</html>
