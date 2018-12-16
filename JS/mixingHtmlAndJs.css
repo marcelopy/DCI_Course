@@ -1,0 +1,23 @@
+body {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+button {
+  width: 15%;
+  background: white;
+  color: black;
+  font-size: 3vw;
+  margin: 0;
+  padding: 2vw auto;
+}
+
+p {
+  width: 15%;
+  border: 2px solid red;
+  font-size: 2vw;
+  opacity: 0;
+  transition: all 0.7s linear;
+}

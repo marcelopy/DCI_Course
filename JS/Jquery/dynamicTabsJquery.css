@@ -1,0 +1,6 @@
+p {
+  display: none;
+}
+  p:first-of-type {
+   display: block;
+ }

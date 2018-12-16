@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+}
+@font-face {
+  font-family: steamwreck;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Steamwreck.otf);
+}
+
+body{
+  display:flex;
+  height: 85vh;
+  font-family: steamwreck, serif;
+  font-size: 48px;
+  background-image:url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wheelDiv{
+
+  width: 30vw;
+  height:85%;
+}
+
+.screenFrame{
+  position:relative;
+  right:-8%;
+  background-image:url("images/panel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width:60%;
+  height:100%;
+
+
+}
+
+.infoText{
+display:none;
+position: relative;
+top:15%;
+left: 14%;
+height: 70%;
+width:72%;
+font-size: 3vw;
+background:black;
+color:#14ff16;
+display:none;
+font-family: steamwreck, serif;
+text-shadow: 0 0 8px white;
+}
+
+.infoText0 {
+  display:flex;
+  background-image:url("images/steampunkwindow.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit:cover;
+}
+.infoText0 span{
+  position: relative;
+  left:43%;
+  top: 34%;
+}
+
+.infoText1{
+  padding-left:1vw;
+  overflow: hidden;
+}
+.infoText1 img{
+  height: 50%;
+}
+
+.marcelo{
+  position: relative;
+  left:7vw;
+}
+.infoText2{
+  padding-left: 1vw;
+}
+.infoText3{
+  box-sizing: border-box;
+  padding-left:1vw;
+
+}
+.infoText3 a{
+  color:#14ff16;
+  display: block;
+  padding-left: 3vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+div.container {
+  display: flex;
+  position:relative;
+  width: 30vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div.container img {
+  width: 30vw;
+  flex-shrink: 0;
+}
+
+.infoText2 span {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+  background: #00000000;
+  font-size: 4vw;
+  color: #14ff16;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  right: 0;
+}

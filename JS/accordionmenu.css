@@ -1,0 +1,26 @@
+section {
+  border: 2px solid #bb2200;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  background: #999999;
+}
+h3{
+  font-size: 3vw;
+  padding: auto;
+  margin: 0 auto;
+
+  background: #c6c6c6;
+}
+
+h3:hover{
+  cursor: n-resize;
+}
+div {
+  font-size: 1.8vw;
+  display:none;
+}
+
+.active {
+  display: block;
+}

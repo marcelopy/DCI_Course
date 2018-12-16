@@ -1,0 +1,10 @@
+body{
+  background: blue;
+}
+input:invalid {
+  border: 0.4vw solid red;
+}
+
+p{
+  display : `none`;
+}

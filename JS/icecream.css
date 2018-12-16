@@ -1,0 +1,9 @@
+body {
+  background: blue;
+}
+div {
+  text-align: center;
+  background: red;
+  height: 5vw;
+  padding-top: 3vw;
+}

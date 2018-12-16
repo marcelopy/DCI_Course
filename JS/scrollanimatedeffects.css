@@ -1,0 +1,65 @@
+body{
+margin:0;
+background: #cccccc;
+}
+
+@keyframes slideFromLeft {
+
+  from {left: -100%;}
+
+  to {left: 0%;}
+}
+
+@keyframes bellRing{
+  0% {transform: rotate(-45deg);};
+  8%{transform:rotate(0deg);};
+  16% {transform: rotate(45deg);};
+  24%{transform:rotate(0deg);};
+  33% {transform: rotate(-45deg);};
+  41%{transform:rotate(0deg);};
+  49% {transform: rotate(45deg);};
+  58%{transform:rotate(0deg);};
+  66% {transform: rotate(-45deg);};
+  74%{transform:rotate(0deg);};
+  83% {transform: rotate(45deg);};
+  91%{transform:rotate(0deg);};
+}
+
+div{
+  position: relative;
+  top:1500px;
+  font-size: 2vw;
+  border: 2px solid black;
+  width: 80%;
+  padding: 3vw 4vw;
+  margin: 3vw auto;
+}
+
+div:nth-of-type(1){
+  background: #234571;
+  opacity:0;
+  transition: opacity 2s;
+}
+
+div:nth-of-type(2){
+  background: #980634;
+}
+
+div:nth-of-type(3){
+  background: #349911;
+}
+
+.fadeIn{
+  opacity:1;
+}
+
+.slideFromLeft{
+  animation-name: slideFromLeft;
+  animation-duration: 2s;
+}
+
+.bellRing{
+  animation-name: bellRing;
+  animation-duration: .3s;
+
+}

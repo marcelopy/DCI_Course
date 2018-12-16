@@ -1,0 +1,42 @@
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  font-size: 2vw;
+  margin: 1.5vw 0;
+}
+
+button{
+  font-size: 1.8vw;
+  padding:0.5vw;
+  background: orange;
+  color:white;
+}
+
+.container{
+  display:flex;
+  margin-top:1.2vw;
+  width:100%;
+  font-size: 3vw;
+}
+.taskText{
+  margin:0;
+  padding: 1vw 0.5vw;
+  width:80%;
+
+  background: blue;
+}
+.removeButton{
+  margin:0;
+  padding: 1vw 0.8vw;
+
+  background: red;
+  justify-content: flex-end;
+}
+
+.removeButton:hover{
+  cursor:pointer;
+}

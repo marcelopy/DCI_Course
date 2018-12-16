@@ -1,0 +1,69 @@
+body, nav, li, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+nav {
+  background: deepskyblue;
+  display: flex;
+  height: 5vw;
+}
+
+nav > li {
+  font-family: tahoma;
+  font-size: 2.8vw;
+  color: white;
+  padding: 1.1vw 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav > li:nth-of-type(2) {
+  flex-grow: 2;
+}
+
+nav > li:last-of-type {
+  flex-grow: 0;
+}
+
+nav > li:hover {
+  cursor: pointer;
+  background: black;
+  color: cyan;
+}
+
+nav  ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 0;
+  background: black;
+}
+
+/* nav > li:hover > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 0;
+  background: black;
+} */
+
+nav > li > ul > a {
+  font-size: 1.4vw;
+  padding: 0.75vw 0.35vw;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  transition: color 0.4s ease-out;
+  text-align: center;
+}
+
+nav > li > ul > a:hover {
+  color: red;
+}
+div{
+  height:30vw;
+}

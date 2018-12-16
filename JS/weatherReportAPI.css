@@ -1,0 +1,37 @@
+div.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 5%;
+}
+
+
+section {
+
+  border: 2px solid black;
+  margin-top: 2vw;
+  margin-right: 1vw;
+  padding: 2vw;
+  height: 12vw;
+  width: 12vw;
+  text-align: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+section::after {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+span{
+  font-size: 1.8vw;
+}
