@@ -64,11 +64,13 @@ text-shadow: 0 0 8px white;
   position: relative;
   left:43%;
   top: 34%;
+  box-sizing: border-box;
 }
 
 .infoText1{
   padding-left:1vw;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .infoText1 img{
   height: 50%;
@@ -80,6 +82,7 @@ text-shadow: 0 0 8px white;
 }
 .infoText2{
   padding-left: 1vw;
+  box-sizing: border-box;
 }
 .infoText3{
   box-sizing: border-box;
