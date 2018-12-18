@@ -19,7 +19,6 @@ body{
   background-size: cover;
 }
 #wheelDiv{
-
   width: 30vw;
   height:85%;
 }
@@ -59,6 +58,7 @@ text-shadow: 0 0 8px white;
   background-size: 100% 100%;
   background-position: center;
   object-fit:cover;
+  overflow: hidden;
 }
 .infoText0 span{
   position: relative;
@@ -69,8 +69,8 @@ text-shadow: 0 0 8px white;
 
 .infoText1{
   padding-left:1vw;
-  overflow: hidden;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .infoText1 img{
   height: 50%;
@@ -83,10 +83,14 @@ text-shadow: 0 0 8px white;
 .infoText2{
   padding-left: 1vw;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .infoText3{
   box-sizing: border-box;
   padding-left:1vw;
+  overflow: hidden;
+  font-size: 1.8vw;
+  font-weight: 400;
 
 }
 .infoText3 a{
@@ -128,4 +132,45 @@ div.container img {
 
 .right {
   right: 0;
+}
+footer{
+  display: flex;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5vw;
+  text-decoration: none;
+  background: rgba(255,255,255,0.5);
+}
+
+.clockframe{
+  box-sizing: border-box;
+  position: absolute;
+  bottom:0 ;
+  left: 1vw;
+}
+
+.clockframe img {
+  height: 10vw;
+  width: 26vw;
+}
+
+.clockbox{
+  position:absolute;
+  bottom: 3.7vw;
+  left: 4.3vw;
+  color: #14ff1666;
+  text-shadow: 0 0 8px green;
+  font-size: 3vw;
+}
+.smoke{
+  position:absolute;
+  z-index: 3;
+  bottom:10vw;
+  left:10vw;
+  opacity:0.3;
+}
+
+.smoke img {
+  width:60%;
 }
